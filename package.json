@@ -1,5 +1,5 @@
 {
-  "name": "lax-ui",
+  "name": "@shilen/lax-ui",
   "version": "0.0.0",
   "description": "Vue UI component library",
   "main": "index.js",
