@@ -4,7 +4,7 @@
   "description": "Vue UI component library",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
