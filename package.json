@@ -5,6 +5,7 @@
   "description": "Vue UI component library",
   "scripts": {
     "dev": "vite",
+    "test": "echo \"No test specified\"",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
