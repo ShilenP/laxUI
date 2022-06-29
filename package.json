@@ -1,6 +1,6 @@
 {
   "name": "vuelax-ui",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Vue UI component library",
   "files": [
     "dist"
