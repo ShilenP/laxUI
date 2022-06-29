@@ -1,7 +1,15 @@
 import { App } from 'vue'
-import Button from './components/Button.vue'
-export default {
+
+import * as components from './components'
+
+const Vuelax = {
 	install: (app: App) => {
-		app.component("Button", Button);
-	},
+		for (const componentKey in components) {
+			app.use((components as any)[componentKey])
+		}
+	}
 }
+
+export default Vuelax
+
+export * from './components'
