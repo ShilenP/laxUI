@@ -5,12 +5,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vuelax-ui.umd.js",
-  "module": "./dist/vuelax-ui.es.js",
+  "main": "./dist/vuelax-ui.umd.ts",
+  "module": "./dist/vuelax-ui.es.ts",
   "exports": {
     ".": {
-      "import": "./dist/vuelax-ui.es.js",
-      "require": "./dist/vuelax-ui.umd.js"
+      "import": "./dist/vuelax-ui.es.ts",
+      "require": "./dist/vuelax-ui.umd.ts"
     },
     "./dist/style.css": "./dist/style.css"
   },
